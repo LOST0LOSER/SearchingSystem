@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="center">
+        <div class="main">
+          <span>center</span>
+          <span id="numberoutput"></span>
+        </div>
+      </div>
+      <div class="left">left</div>
+      <div class="right">right</div>
+    </div>
+  </body>
+  <script>
+    const forPrint = (number) => {
+      for (var i = 0; i < number; i++) {
+        (() => {
+          console.log(i);
+        })();
+      }
+    };
+    function variableHosting(number) {
+      for (var i = 0; i < number; i++) {
+        console.log(i);
+      }
+    }
+    // document.querySelector("#numberoutput").innerHTML
+    // forPrint(5);
+    // variableHosting(5);
+  </script>
+  <link rel="stylesheet" href="cssPractice.scss" />
+</html>
