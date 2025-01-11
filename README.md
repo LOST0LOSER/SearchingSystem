@@ -32,6 +32,11 @@ windows下如果嫌弃语料库下载比较慢，可以直接将该目录下的`
 
 语料库下载完成后请将相应的下载语注释掉。
 
+安裝python環境依賴
+```
+pip install -r ./requirements.txt
+```
+
 在`SearchSystem`目录下运行命令：
 ```batch
 python main.py
